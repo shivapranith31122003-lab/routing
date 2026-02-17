@@ -1,0 +1,49 @@
+/* Navbar main container */
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  background-color: lightblue;
+  color: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo / Title */
+#nav h1 {
+  font-size: 22px;
+  font-weight: bold;
+  color: black; /* sky blue */
+  background-color: yellow;
+}
+
+/* Links container */
+#nav_link {
+  display: flex;
+  gap: 25px;
+  /* background-color: pink; */
+}
+
+/* Remove default link style */
+#nav_link a {
+  text-decoration: none;
+}
+
+/* Link text */
+#nav_link span {
+  font-size: 16px;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+#nav_link span:hover {
+  background: #38bdf8;
+  color: black;
+  cursor: pointer;
+}
