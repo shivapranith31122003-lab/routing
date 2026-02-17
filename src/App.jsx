@@ -15,7 +15,7 @@ function App() {
       <Inputhandler/> */}
       <h1>MainComp</h1>
       <Routes>
-        <Route path="/counter" element={<Counter/>}/>
+        <Route path="/Counter" element={<Counter/>}/>
         <Route path="/Bgchanger" element={<Bgchanger/>}/>
         <Route path="/Inputhandler" element={<Inputhandler/>}/>
       </Routes>
